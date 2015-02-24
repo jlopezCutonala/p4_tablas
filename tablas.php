@@ -45,11 +45,15 @@
                     'id' => '5',
                     'codigo' => '3993546',
                     'nombre' => 'Jonathan'
+                ),
+                array(
+                    'id' => '6',
+                    'codigo' => '1111',
+                    'nombre' => 'Ana Valencia'
                 )
             );
             echo '<label>'.$alumnos[2]['nombre'].'</label>';
             echo '<br><br>';
-            var_dump($alumnos);
         ?>
         <br>
         <br>
@@ -64,7 +68,7 @@
                     <td><?php echo $alumno['id']; ?></td>
                     <td><?php echo $alumno['codigo']; ?></td>
                     <td><?php echo $alumno['nombre']; ?></td>
-                <tr>
+                </tr>
             <?php } ?>
         </table>
     </body>
